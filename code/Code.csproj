@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3E778FAC-D199-4B83-B32D-58B2E0913B50}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Code</RootNamespace>
+    <AssemblyName>Code</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ceTe.DynamicPDF">
+      <HintPath>..\..\..\..\Vehicle License plate detection 2018\Code\bin\ceTe.DynamicPDF.dll</HintPath>
+    </Reference>
+    <Reference Include="SqlConnectionValidator, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Dll\Full\SqlConnectionValidator.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Device" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="genbill.aspx" />
+    <Content Include="examsch.aspx" />
+    <Content Include="lecpre.aspx" />
+    <Content Include="examcreate.aspx" />
+    <Content Include="addsub.aspx" />
+    <Content Include="addpre.aspx" />
+    <Content Include="abtclg.aspx" />
+    <Content Include="addcol.aspx" />
+    <Content Include="allocsub.aspx" />
+    <Content Include="images\col.jpg" />
+    <Content Include="verallo.aspx" />
+    <Content Include="managecol.aspx" />
+    <Content Include="sublists.aspx" />
+    <Content Include="lechome.aspx" />
+    <Content Include="delsub.aspx" />
+    <Content Include="images\addbook.jpg" />
+    <Content Include="images\addstaff.png" />
+    <Content Include="images\delbook.jpg" />
+    <Content Include="images\delstaff.png" />
+    <Content Include="addstaff.aspx" />
+    <Content Include="delstaff.aspx" />
+    <Content Include="subjecter.aspx" />
+    <Content Include="staffer.aspx" />
+    <Content Include="images\challan.png" />
+    <Content Include="images\lock.png" />
+    <Content Include="images\reg.jpg" />
+    <Content Include="images\subjects.jpg" />
+    <Content Include="sign.png" />
+    <Content Include="stuhome.aspx" />
+    <Content Include="approveusers.aspx" />
+    <Content Include="valfee.aspx" />
+    <Content Include="images\sbrr-mahajana.jpg" />
+    <Content Include="manageusers.aspx" />
+    <Content Include="managesub.aspx" />
+    <Content Include="images\fee_structure.jpg" />
+    <Content Include="images\uni.jpg" />
+    <Content Include="login.aspx" />
+    <Content Include="managefee.aspx" />
+    <Content Include="adminhome.aspx" />
+    <Content Include="hodhome.aspx" />
+    <Content Include="register.aspx" />
+    <Content Include="index.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="genbill.aspx.cs">
+      <DependentUpon>genbill.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="genbill.aspx.designer.cs">
+      <DependentUpon>genbill.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="examsch.aspx.cs">
+      <DependentUpon>examsch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="examsch.aspx.designer.cs">
+      <DependentUpon>examsch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lecpre.aspx.cs">
+      <DependentUpon>lecpre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lecpre.aspx.designer.cs">
+      <DependentUpon>lecpre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="examcreate.aspx.cs">
+      <DependentUpon>examcreate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="examcreate.aspx.designer.cs">
+      <DependentUpon>examcreate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="addsub.aspx.cs">
+      <DependentUpon>addsub.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addsub.aspx.designer.cs">
+      <DependentUpon>addsub.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="addstaff.aspx.cs">
+      <DependentUpon>addstaff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addstaff.aspx.designer.cs">
+      <DependentUpon>addstaff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="addpre.aspx.cs">
+      <DependentUpon>addpre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addpre.aspx.designer.cs">
+      <DependentUpon>addpre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="abtclg.aspx.cs">
+      <DependentUpon>abtclg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="abtclg.aspx.designer.cs">
+      <DependentUpon>abtclg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="addcol.aspx.cs">
+      <DependentUpon>addcol.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addcol.aspx.designer.cs">
+      <DependentUpon>addcol.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="allocsub.aspx.cs">
+      <DependentUpon>allocsub.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="allocsub.aspx.designer.cs">
+      <DependentUpon>allocsub.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="verallo.aspx.cs">
+      <DependentUpon>verallo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="verallo.aspx.designer.cs">
+      <DependentUpon>verallo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="managecol.aspx.cs">
+      <DependentUpon>managecol.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="managecol.aspx.designer.cs">
+      <DependentUpon>managecol.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sublists.aspx.cs">
+      <DependentUpon>sublists.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sublists.aspx.designer.cs">
+      <DependentUpon>sublists.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lechome.aspx.cs">
+      <DependentUpon>lechome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lechome.aspx.designer.cs">
+      <DependentUpon>lechome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="delsub.aspx.cs">
+      <DependentUpon>delsub.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="delsub.aspx.designer.cs">
+      <DependentUpon>delsub.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="delstaff.aspx.cs">
+      <DependentUpon>delstaff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="delstaff.aspx.designer.cs">
+      <DependentUpon>delstaff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="subjecter.aspx.cs">
+      <DependentUpon>subjecter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="subjecter.aspx.designer.cs">
+      <DependentUpon>subjecter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="staffer.aspx.cs">
+      <DependentUpon>staffer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="staffer.aspx.designer.cs">
+      <DependentUpon>staffer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="stuhome.aspx.cs">
+      <DependentUpon>stuhome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="stuhome.aspx.designer.cs">
+      <DependentUpon>stuhome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="approveusers.aspx.cs">
+      <DependentUpon>approveusers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="approveusers.aspx.designer.cs">
+      <DependentUpon>approveusers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="valfee.aspx.cs">
+      <DependentUpon>valfee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="valfee.aspx.designer.cs">
+      <DependentUpon>valfee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="manageusers.aspx.cs">
+      <DependentUpon>manageusers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="manageusers.aspx.designer.cs">
+      <DependentUpon>manageusers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="managesub.aspx.cs">
+      <DependentUpon>managesub.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="managesub.aspx.designer.cs">
+      <DependentUpon>managesub.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="managefee.aspx.cs">
+      <DependentUpon>managefee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="managefee.aspx.designer.cs">
+      <DependentUpon>managefee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminhome.aspx.cs">
+      <DependentUpon>adminhome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminhome.aspx.designer.cs">
+      <DependentUpon>adminhome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="hodhome.aspx.cs">
+      <DependentUpon>hodhome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hodhome.aspx.designer.cs">
+      <DependentUpon>hodhome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="register.aspx.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="register.aspx.designer.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="css\" />
+    <Folder Include="js\" />
+    <Folder Include="webfonts\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51746</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:51746/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
