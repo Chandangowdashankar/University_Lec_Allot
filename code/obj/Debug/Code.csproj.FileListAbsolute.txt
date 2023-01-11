@@ -1,0 +1,58 @@
+H:\Proj Segment 4\Dot Net\University Lecture Allotment\Code\Code\Code\bin\Code.dll.config
+H:\Proj Segment 4\Dot Net\University Lecture Allotment\Code\Code\Code\bin\Code.dll
+H:\Proj Segment 4\Dot Net\University Lecture Allotment\Code\Code\Code\bin\Code.pdb
+H:\Proj Segment 4\Dot Net\University Lecture Allotment\Code\Code\Code\obj\Debug\Code.csprojResolveAssemblyReference.cache
+H:\Proj Segment 4\Dot Net\University Lecture Allotment\Code\Code\Code\obj\Debug\Code.dll
+H:\Proj Segment 4\Dot Net\University Lecture Allotment\Code\Code\Code\obj\Debug\Code.pdb
+H:\Proj Segment 4\Dot Net\University fee\Code\Code\Code\bin\Code.dll.config
+H:\Proj Segment 4\Dot Net\University fee\Code\Code\Code\bin\Code.dll
+H:\Proj Segment 4\Dot Net\University fee\Code\Code\Code\bin\Code.pdb
+H:\Proj Segment 4\Dot Net\University fee\Code\Code\Code\obj\Debug\Code.csprojResolveAssemblyReference.cache
+H:\Proj Segment 4\Dot Net\University fee\Code\Code\Code\obj\Debug\Code.dll
+H:\Proj Segment 4\Dot Net\University fee\Code\Code\Code\obj\Debug\Code.pdb
+H:\Proj Segment 4\Dot Net\University fee\Code\Code\Code\bin\ceTe.DynamicPDF.dll
+H:\Proj Segment 4\Dot Net\University fee\Code\Code\Code\bin\SqlConnectionValidator.dll
+H:\Proj Segment 4\Dot Net\University fee\Code\Code\Code\bin\MySql.Data.dll
+H:\Proj Segment 4\Dot Net\University fee\Code\Code\Code\bin\SqlConnectionValidator.pdb
+H:\Proj Segment 4\Dot Net\University fee\Code\Code\Code\bin\MySql.Data.xml
+H:\Proj Segment 4\Dot Net\University Lecture Allotment\Code\Code\Code\bin\ceTe.DynamicPDF.dll
+H:\Proj Segment 4\Dot Net\University Lecture Allotment\Code\Code\Code\bin\SqlConnectionValidator.dll
+H:\Proj Segment 4\Dot Net\University Lecture Allotment\Code\Code\Code\bin\MySql.Data.dll
+H:\Proj Segment 4\Dot Net\University Lecture Allotment\Code\Code\Code\bin\SqlConnectionValidator.pdb
+H:\Proj Segment 4\Dot Net\University Lecture Allotment\Code\Code\Code\bin\MySql.Data.xml
+E:\Code\bin\Code.dll.config
+E:\Code\bin\Code.dll
+E:\Code\bin\Code.pdb
+E:\Code\bin\MySql.Data.dll
+E:\Code\bin\SqlConnectionValidator.pdb
+E:\Code\bin\MySql.Data.xml
+E:\Code\obj\Debug\Code.csprojResolveAssemblyReference.cache
+E:\Code\obj\Debug\Code.dll
+E:\Code\obj\Debug\Code.pdb
+C:\Users\user\Desktop\Final Deployed Code\Code\bin\Code.dll.config
+C:\Users\user\Desktop\Final Deployed Code\Code\bin\Code.dll
+C:\Users\user\Desktop\Final Deployed Code\Code\bin\Code.pdb
+C:\Users\user\Desktop\Final Deployed Code\Code\bin\MySql.Data.dll
+C:\Users\user\Desktop\Final Deployed Code\Code\bin\SqlConnectionValidator.pdb
+C:\Users\user\Desktop\Final Deployed Code\Code\bin\MySql.Data.xml
+C:\Users\user\Desktop\Final Deployed Code\Code\obj\Debug\Code.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Final Deployed Code\Code\obj\Debug\Code.dll
+C:\Users\user\Desktop\Final Deployed Code\Code\obj\Debug\Code.pdb
+F:\Project\Dot Net\University Lec Allot 21\Code\bin\Code.dll.config
+F:\Project\Dot Net\University Lec Allot 21\Code\bin\Code.dll
+F:\Project\Dot Net\University Lec Allot 21\Code\bin\Code.pdb
+F:\Project\Dot Net\University Lec Allot 21\Code\bin\MySql.Data.dll
+F:\Project\Dot Net\University Lec Allot 21\Code\bin\SqlConnectionValidator.pdb
+F:\Project\Dot Net\University Lec Allot 21\Code\bin\MySql.Data.xml
+F:\Project\Dot Net\University Lec Allot 21\Code\obj\Debug\Code.csprojResolveAssemblyReference.cache
+F:\Project\Dot Net\University Lec Allot 21\Code\obj\Debug\Code.dll
+F:\Project\Dot Net\University Lec Allot 21\Code\obj\Debug\Code.pdb
+C:\Users\user\Desktop\University Lec Allot 21\Code\bin\Code.dll.config
+C:\Users\user\Desktop\University Lec Allot 21\Code\bin\Code.dll
+C:\Users\user\Desktop\University Lec Allot 21\Code\bin\Code.pdb
+C:\Users\user\Desktop\University Lec Allot 21\Code\bin\MySql.Data.dll
+C:\Users\user\Desktop\University Lec Allot 21\Code\bin\SqlConnectionValidator.pdb
+C:\Users\user\Desktop\University Lec Allot 21\Code\bin\MySql.Data.xml
+C:\Users\user\Desktop\University Lec Allot 21\Code\obj\Debug\Code.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\University Lec Allot 21\Code\obj\Debug\Code.dll
+C:\Users\user\Desktop\University Lec Allot 21\Code\obj\Debug\Code.pdb
